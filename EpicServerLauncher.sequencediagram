@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="87d952f6-658f-421a-8bf5-6641a410cc0a" name="Epicserver Minecraft Installer" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="740fe456-28e8-402e-9bd8-820d49791ccf" name="Epicserver Minecraft Installer" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="41737765-7ed5-4d68-8bb8-d4e369b3dcf1" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="0220f1c7-2e45-4c95-972e-85de3e90bb92" LastKnownName="Minecraft.Launcher" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="8510c6fd-64e5-4665-94a2-3c55089f55cd" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="25c3644e-3157-4d88-92ea-a790e1b40a8b" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="6a0277a3-61c5-4754-9728-a12c9b1a159c" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="ece004d7-e31e-48d8-920e-8d4c338e2657" LastKnownName="MessageOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="52d9ef1e-70e6-49d4-b453-7eb60d175dfe" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="2091fa74-5bcf-46c9-9149-1d349440d5d0" LastKnownName="ExecutionOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="42ddd797-6260-4dc9-8015-a7f21437c325" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="25c3644e-3157-4d88-92ea-a790e1b40a8b" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="e5e6a83d-a3c4-411a-bd4b-8b29470318e3" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="0220f1c7-2e45-4c95-972e-85de3e90bb92" LastKnownName="Minecraft.Launcher" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="6a0277a3-61c5-4754-9728-a12c9b1a159c" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="0220f1c7-2e45-4c95-972e-85de3e90bb92" LastKnownName="Minecraft.Launcher" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="95bc3ec0-fd44-474e-b876-646e2d89ea26" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="aebe88c0-b52a-494f-b351-cbabf48c46ae" LastKnownName="MainForm" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="ece004d7-e31e-48d8-920e-8d4c338e2657" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="0220f1c7-2e45-4c95-972e-85de3e90bb92" LastKnownName="Minecraft.Launcher" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="100bf334-be35-4771-b7dc-10285b7d08f1" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="0220f1c7-2e45-4c95-972e-85de3e90bb92" LastKnownName="Minecraft.Launcher" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="2091fa74-5bcf-46c9-9149-1d349440d5d0" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="52d9ef1e-70e6-49d4-b453-7eb60d175dfe" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="1ab63177-e229-42c2-8ef1-4d04523719ea" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="8acc7c3f-fe9a-48b9-9561-c3de1e3973a6" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="62c61553-e0d2-4e4f-b1a8-b9e21f952dda" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="89278504-f92e-4439-a062-014991179974" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="52d9ef1e-70e6-49d4-b453-7eb60d175dfe" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="4ce12521-af79-4eff-9461-f19c25eba15e" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="0220f1c7-2e45-4c95-972e-85de3e90bb92" LastKnownName="Minecraft.Launcher" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="1ab63177-e229-42c2-8ef1-4d04523719ea" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="0220f1c7-2e45-4c95-972e-85de3e90bb92" LastKnownName="Minecraft.Launcher" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="b4691cdc-7cd0-4c37-846c-6e6cc7b9bd26" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="3d56a01c-14fa-454e-a1f9-36465a358656" LastKnownName="Internet.Http" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="3b0a83b9-1159-49e2-8eb0-11139639d64d" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="75dcbcd3-f347-4181-bc43-bca992022724" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="be5d4f58-71c7-4d89-bd32-8eff0b7ced03" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="172deef6-618f-4123-bd2d-68c17a9077e4" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="75dcbcd3-f347-4181-bc43-bca992022724" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="53912409-20ee-4763-b69e-a909358826f1" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="3d56a01c-14fa-454e-a1f9-36465a358656" LastKnownName="Internet.Http" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="be5d4f58-71c7-4d89-bd32-8eff0b7ced03" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="3d56a01c-14fa-454e-a1f9-36465a358656" LastKnownName="Internet.Http" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="8acc7c3f-fe9a-48b9-9561-c3de1e3973a6" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="0220f1c7-2e45-4c95-972e-85de3e90bb92" LastKnownName="Minecraft.Launcher" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="172deef6-618f-4123-bd2d-68c17a9077e4" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="3d56a01c-14fa-454e-a1f9-36465a358656" LastKnownName="Internet.Http" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="62c61553-e0d2-4e4f-b1a8-b9e21f952dda" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="0220f1c7-2e45-4c95-972e-85de3e90bb92" LastKnownName="Minecraft.Launcher" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="3b0a83b9-1159-49e2-8eb0-11139639d64d" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="64df8488-795d-43de-adfb-9a6c1a889323" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="3d56a01c-14fa-454e-a1f9-36465a358656" LastKnownName="Internet.Http" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="b99d6c7c-2a0e-4345-a6ac-0c60803825b4" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="aebe88c0-b52a-494f-b351-cbabf48c46ae" LastKnownName="MainForm" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="0e9bd3f8-6ba2-41f4-bf7c-959f0df0bd25" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="fbb31256-410c-4896-b570-bef1d7f1d4d0" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="cbeafe48-16da-4484-8132-7a776bd03be0" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="fbb31256-410c-4896-b570-bef1d7f1d4d0" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="4e499ca7-d84b-428f-972c-e5ca7d2a221f" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="aebe88c0-b52a-494f-b351-cbabf48c46ae" LastKnownName="MainForm" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="cbeafe48-16da-4484-8132-7a776bd03be0" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="aebe88c0-b52a-494f-b351-cbabf48c46ae" LastKnownName="MainForm" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="89278504-f92e-4439-a062-014991179974" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="0220f1c7-2e45-4c95-972e-85de3e90bb92" LastKnownName="Minecraft.Launcher" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="0e9bd3f8-6ba2-41f4-bf7c-959f0df0bd25" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="e3d5540e-378e-48a4-a0dd-5182620f80b6" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="aebe88c0-b52a-494f-b351-cbabf48c46ae" LastKnownName="MainForm" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="2091fa74-5bcf-46c9-9149-1d349440d5d0" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="7fed4bd7-b36b-4dfa-a90d-f5a31d8e4480" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="0220f1c7-2e45-4c95-972e-85de3e90bb92" LastKnownName="Minecraft.Launcher" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="42ddd797-6260-4dc9-8015-a7f21437c325" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="0220f1c7-2e45-4c95-972e-85de3e90bb92" LastKnownName="Minecraft.Launcher" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="53168f4b-4be6-4cb0-9d15-b7f9aeca23ad" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="aebe88c0-b52a-494f-b351-cbabf48c46ae" LastKnownName="MainForm" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="8510c6fd-64e5-4665-94a2-3c55089f55cd" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="fbe7e880-9ebd-45a6-b96f-389be801e235" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="0220f1c7-2e45-4c95-972e-85de3e90bb92" LastKnownName="Minecraft.Launcher" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="aebe88c0-b52a-494f-b351-cbabf48c46ae" name="MainForm" isActor="false" lifelineDisplayName="MainForm">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="95bc3ec0-fd44-474e-b876-646e2d89ea26" LastKnownName="MessageOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="fbb31256-410c-4896-b570-bef1d7f1d4d0" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="0e9bd3f8-6ba2-41f4-bf7c-959f0df0bd25" LastKnownName="ExecutionOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="53168f4b-4be6-4cb0-9d15-b7f9aeca23ad" LastKnownName="MessageOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="0220f1c7-2e45-4c95-972e-85de3e90bb92" name="Minecraft.Launcher" isActor="false" lifelineDisplayName="Minecraft.Launcher">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="25c3644e-3157-4d88-92ea-a790e1b40a8b" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="8510c6fd-64e5-4665-94a2-3c55089f55cd" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="3d56a01c-14fa-454e-a1f9-36465a358656" name="Internet.Http" isActor="false" lifelineDisplayName="Internet.Http">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="75dcbcd3-f347-4181-bc43-bca992022724" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="3b0a83b9-1159-49e2-8eb0-11139639d64d" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="dd2e8c0a-ac52-4b58-b86b-bfaeb0dd6bbd" name="Start();" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="95bc3ec0-fd44-474e-b876-646e2d89ea26" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="6a0277a3-61c5-4754-9728-a12c9b1a159c" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="9e83ca19-209f-4e1e-a51c-ae7faaad826e" name="bool bSuccess" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="42ddd797-6260-4dc9-8015-a7f21437c325" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="53168f4b-4be6-4cb0-9d15-b7f9aeca23ad" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="105684d8-91ab-49cf-a36a-834aab9257a5" name="generateSession();" messageKind="Complete" messageSort="SynchCall" createSelfMessage="true">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="ece004d7-e31e-48d8-920e-8d4c338e2657" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="1ab63177-e229-42c2-8ef1-4d04523719ea" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="cac6d871-9a34-4f1e-bbc3-a878ff5b943d" name="MainForm.ExecCommand();" messageKind="Complete" messageSort="AsynchCall" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="89278504-f92e-4439-a062-014991179974" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="cbeafe48-16da-4484-8132-7a776bd03be0" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="2f349e9e-265a-457b-b48e-ac8defe9acdc" name="GET();" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="8acc7c3f-fe9a-48b9-9561-c3de1e3973a6" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="be5d4f58-71c7-4d89-bd32-8eff0b7ced03" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="73743031-966d-4d15-a938-4bbe0c3fd22c" name="string response" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="172deef6-618f-4123-bd2d-68c17a9077e4" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="62c61553-e0d2-4e4f-b1a8-b9e21f952dda" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="e5e6a83d-a3c4-411a-bd4b-8b29470318e3" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="fbe7e880-9ebd-45a6-b96f-389be801e235" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="4ce12521-af79-4eff-9461-f19c25eba15e" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="7fed4bd7-b36b-4dfa-a90d-f5a31d8e4480" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="4e499ca7-d84b-428f-972c-e5ca7d2a221f" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="e3d5540e-378e-48a4-a0dd-5182620f80b6" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="53912409-20ee-4763-b69e-a909358826f1" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="64df8488-795d-43de-adfb-9a6c1a889323" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>

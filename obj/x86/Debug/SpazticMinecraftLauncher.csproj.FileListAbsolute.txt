@@ -1,0 +1,21 @@
+C:\Users\Stefan\Documents\epicserver.nl-launcher\bin\Debug\localdata.xml
+C:\Users\Stefan\Documents\epicserver.nl-launcher\bin\Debug\Epicserver Minecraft Installer.exe.config
+C:\Users\Stefan\Documents\epicserver.nl-launcher\bin\Debug\Epicserver Minecraft Installer.exe
+C:\Users\Stefan\Documents\epicserver.nl-launcher\bin\Debug\Epicserver Minecraft Installer.pdb
+C:\Users\Stefan\Documents\epicserver.nl-launcher\bin\Debug\en\Epicserver Minecraft Installer.resources.dll
+C:\Users\Stefan\Documents\epicserver.nl-launcher\bin\Debug\Ionic.Zip.dll
+C:\Users\Stefan\Documents\epicserver.nl-launcher\bin\Debug\Ionic.Zip.xml
+C:\Users\Stefan\Documents\epicserver.nl-launcher\obj\x86\Debug\SpazticMinecraftLauncher.csprojResolveAssemblyReference.cache
+C:\Users\Stefan\Documents\epicserver.nl-launcher\obj\x86\Debug\Epicserver_Minecraft_Installer.Downloader.resources
+C:\Users\Stefan\Documents\epicserver.nl-launcher\obj\x86\Debug\Epicserver_Minecraft_Installer.JVMEditor.resources
+C:\Users\Stefan\Documents\epicserver.nl-launcher\obj\x86\Debug\Epicserver_Minecraft_Installer.MapUrlEditor.resources
+C:\Users\Stefan\Documents\epicserver.nl-launcher\obj\x86\Debug\Epicserver_Minecraft_Installer.OutputWindow.resources
+C:\Users\Stefan\Documents\epicserver.nl-launcher\obj\x86\Debug\Epicserver_Minecraft_Installer.QuickstartEditor.resources
+C:\Users\Stefan\Documents\epicserver.nl-launcher\obj\x86\Debug\Epicserver_Minecraft_Installer.VersionSelect.resources
+C:\Users\Stefan\Documents\epicserver.nl-launcher\obj\x86\Debug\Epicserver_Minecraft_Installer.MainForm.resources
+C:\Users\Stefan\Documents\epicserver.nl-launcher\obj\x86\Debug\Epicserver_Minecraft_Installer.Properties.Resources.resources
+C:\Users\Stefan\Documents\epicserver.nl-launcher\obj\x86\Debug\Epicserver_Minecraft_Installer.MainForm.en.resources
+C:\Users\Stefan\Documents\epicserver.nl-launcher\obj\x86\Debug\SpazticMinecraftLauncher.csproj.GenerateResource.Cache
+C:\Users\Stefan\Documents\epicserver.nl-launcher\obj\x86\Debug\en\Epicserver Minecraft Installer.resources.dll
+C:\Users\Stefan\Documents\epicserver.nl-launcher\obj\x86\Debug\Epicserver Minecraft Installer.exe
+C:\Users\Stefan\Documents\epicserver.nl-launcher\obj\x86\Debug\Epicserver Minecraft Installer.pdb

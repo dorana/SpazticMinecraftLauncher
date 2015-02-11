@@ -1,0 +1,509 @@
+[23:45:45] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[23:45:45] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[23:45:45] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[23:45:45] [main/INFO]: Forge Mod Loader version 7.10.84.1219 for Minecraft 1.7.10 loading
+[23:45:45] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_67, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jre7
+[23:45:46] [main/WARN]: The coremod ic2.core.coremod.IC2core does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[23:45:46] [main/WARN]: The coremod com.dynious.refinedrelocation.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[23:45:47] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:45:47] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[23:45:47] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:45:47] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[23:45:47] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:45:48] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[23:45:48] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[23:45:48] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:45:48] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:45:48] [main/INFO]: Loaded library ejml-0.23.jar.
+[23:45:48] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[23:45:48] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[23:45:49] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[23:45:49] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[23:45:49] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[23:45:50] [main/INFO]: Setting user: productionMode,Application-Author
+[23:45:51] [Client thread/INFO]: LWJGL Version: 2.9.1
+[23:45:51] [Client thread/ERROR]: Unable to determine registrant mod for cpw.mods.fml.common.eventhandler.EventBus@dd90c3. This is a critical error and should be impossible
+java.lang.Throwable
+	at cpw.mods.fml.common.eventhandler.EventBus.register(EventBus.java:56) [EventBus.class:?]
+	at cpw.mods.fml.common.eventhandler.EventBus.<init>(EventBus.java:36) [EventBus.class:?]
+	at net.minecraftforge.common.MinecraftForge.<clinit>(MinecraftForge.java:21) [MinecraftForge.class:?]
+	at net.minecraftforge.fluids.FluidRegistry.registerFluid(FluidRegistry.java:83) [FluidRegistry.class:?]
+	at net.minecraftforge.fluids.FluidRegistry.<clinit>(FluidRegistry.java:50) [FluidRegistry.class:?]
+	at net.minecraftforge.client.ForgeHooksClient.<clinit>(ForgeHooksClient.java:425) [ForgeHooksClient.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:432) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_67]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[23:45:51] [Client thread/ERROR]: Unable to determine registrant mod for cpw.mods.fml.common.eventhandler.EventBus@3231a501. This is a critical error and should be impossible
+java.lang.Throwable
+	at cpw.mods.fml.common.eventhandler.EventBus.register(EventBus.java:56) [EventBus.class:?]
+	at cpw.mods.fml.common.eventhandler.EventBus.<init>(EventBus.java:36) [EventBus.class:?]
+	at net.minecraftforge.common.MinecraftForge.<clinit>(MinecraftForge.java:22) [MinecraftForge.class:?]
+	at net.minecraftforge.fluids.FluidRegistry.registerFluid(FluidRegistry.java:83) [FluidRegistry.class:?]
+	at net.minecraftforge.fluids.FluidRegistry.<clinit>(FluidRegistry.java:50) [FluidRegistry.class:?]
+	at net.minecraftforge.client.ForgeHooksClient.<clinit>(ForgeHooksClient.java:425) [ForgeHooksClient.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:432) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_67]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[23:45:51] [Client thread/ERROR]: Unable to determine registrant mod for cpw.mods.fml.common.eventhandler.EventBus@5947fe65. This is a critical error and should be impossible
+java.lang.Throwable
+	at cpw.mods.fml.common.eventhandler.EventBus.register(EventBus.java:56) [EventBus.class:?]
+	at cpw.mods.fml.common.eventhandler.EventBus.<init>(EventBus.java:36) [EventBus.class:?]
+	at net.minecraftforge.common.MinecraftForge.<clinit>(MinecraftForge.java:23) [MinecraftForge.class:?]
+	at net.minecraftforge.fluids.FluidRegistry.registerFluid(FluidRegistry.java:83) [FluidRegistry.class:?]
+	at net.minecraftforge.fluids.FluidRegistry.<clinit>(FluidRegistry.java:50) [FluidRegistry.class:?]
+	at net.minecraftforge.client.ForgeHooksClient.<clinit>(ForgeHooksClient.java:425) [ForgeHooksClient.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:432) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_67]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[23:45:52] [Client thread/INFO]: [tv.twitch.StandardCoreAPI:<init>:16]: If on Windows, make sure to provide all of the necessary dll's as specified in the twitchsdk README. Also, make sure to set the PATH environment variable to point to the directory containing the dll's.
+[23:45:52] [Client thread/ERROR]: Couldn't initialize twitch stream
+[23:45:52] [Client thread/ERROR]: Unable to determine registrant mod for cpw.mods.fml.common.eventhandler.EventBus@341dc81d. This is a critical error and should be impossible
+java.lang.Throwable
+	at cpw.mods.fml.common.eventhandler.EventBus.register(EventBus.java:56) [EventBus.class:?]
+	at cpw.mods.fml.common.eventhandler.EventBus.<init>(EventBus.java:36) [EventBus.class:?]
+	at cpw.mods.fml.common.FMLCommonHandler.<init>(FMLCommonHandler.java:90) [FMLCommonHandler.class:?]
+	at cpw.mods.fml.common.FMLCommonHandler.<clinit>(FMLCommonHandler.java:77) [FMLCommonHandler.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:188) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:480) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_67]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[23:45:52] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[23:45:52] [Client thread/INFO]: MinecraftForge v10.13.1.1219 Initialized
+[23:45:52] [Client thread/INFO]: Replaced 182 ore recipies
+[23:45:52] [Client thread/INFO]: Completed early MinecraftForge initialization
+[23:45:52] [Client thread/INFO]: Searching C:\Users\Stefan\AppData\Roaming\.minecraft\mods for mods
+[23:45:52] [Client thread/INFO]: Also searching C:\Users\Stefan\AppData\Roaming\.minecraft\mods\1.7.10 for mods
+[23:45:55] [Client thread/WARN]: Mod PowerConverters is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.7.10-3.0.0.29
+[23:45:56] [Client thread/INFO]: Forge Mod Loader has identified 22 mods to load
+[23:45:56] [Client thread/INFO]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.1.95-universal.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[23:45:56] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, BuildCraft|Builders, BuildCraft|Core, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Transport, CarpentersBlocks, craftguide, ExtraTiC, Forestry, IC2, Mantle, Metallurgy, MetallurgyCore, PowerConverters, Railcraft, RefinedRelocation, TConstruct, TiCTooltips] at CLIENT
+[23:45:56] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, BuildCraft|Builders, BuildCraft|Core, BuildCraft|Energy, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Transport, CarpentersBlocks, craftguide, ExtraTiC, Forestry, IC2, Mantle, Metallurgy, MetallurgyCore, PowerConverters, Railcraft, RefinedRelocation, TConstruct, TiCTooltips] at SERVER
+[23:45:58] [Client thread/INFO]: Preparing to take over the world
+[23:45:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BC Transport, FMLFileResourcePack:Carpenter's Blocks, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:ExtraTiC, FMLFileResourcePack:Forestry for Minecraft, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Mantle, FMLFileResourcePack:Metallurgy 4, FMLFileResourcePack:Metallurgy Core, FMLFileResourcePack:Power Converters, FMLFileResourcePack:Railcraft, FMLFileResourcePack:Refined Relocation, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:TiC Tooltips, Sphax PureBDcraft  64x MC17.zip, Sphax_CarpentersBlocks_128x.zip, Sphax_TinCon_Ver1.6.0.d40_1_64x.zip, Sphax64x_Metallurgy_1.7.2
+[23:45:59] [Client thread/INFO]: Processing ObjectHolder annotations
+[23:45:59] [Client thread/INFO]: Found 341 ObjectHolder annotations
+[23:45:59] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[23:46:00] [Client thread/INFO]: Designs found: Bed(6), Chisel(9), FlowerPot(18), Tile(13)
+[23:46:00] [Client thread/INFO]: Mantle (1.7.10-0.3.1.jenkins180) -- Preparing for launch.
+[23:46:00] [Client thread/INFO]: Entering preinitialization phase.
+[23:46:00] [Client thread/INFO]: Loading configuration from disk.
+[23:46:00] [Client thread/INFO]: Configuration load completed.
+[23:46:00] [Client thread/INFO]: Skipping Pulse Tinkers NEI Compatibility; missing dependency: NotEnoughItems
+[23:46:00] [Client thread/INFO]: Skipping Pulse Tinkers Thaumcraft Compatibility; missing dependency: Thaumcraft
+[23:46:00] [Client thread/INFO]: Skipping Pulse Tinkers Waila Compatibility; missing dependency: Waila
+[23:46:00] [Client thread/INFO]: Skipping Pulse Tinkers AE2 Compatibility; missing dependency: appliedenergistics2
+[23:46:00] [Client thread/INFO]: Skipping Pulse Tinkers Mystcraft Compatibility; missing dependency: Mystcraft
+[23:46:00] [Client thread/INFO]: Skipping Pulse Tinkers MFR Compatibility; missing dependency: MineFactoryReloaded
+[23:46:00] [Client thread/INFO]: Skipping Pulse Tinkers TE4 Compatibility; missing dependency: ThermalExpansion
+[23:46:01] [Client thread/INFO]: Metallurgy Detected
+[23:46:01] [Client thread/INFO]: Starting pre-init
+[23:46:01] [Client thread/INFO]: Using 32 audio sources.
+[23:46:03] [Client thread/INFO]: Finished pre-init after 1601 ms
+[23:46:03] [Client thread/INFO]: Module Equivalent Exchange 2 Plugin failed to load: Equivalent Exchange not found
+[23:46:03] [Client thread/INFO]: Module FarmCraftory Plugin failed to load: FarmCraftory not found
+[23:46:03] [Client thread/INFO]: Module PluginNatura failed to load: Natura not found
+[23:46:04] [Client thread/INFO]: [ic2.api.item.IC2Items:getItem:36]: IC2 API: Call getItem failed for compressedPlantBall
+[23:46:04] [Client thread/INFO]: [ic2.api.item.IC2Items:getItem:36]: IC2 API: Call getItem failed for matter
+[23:46:04] [Client thread/INFO]: Railcraft Config: Doing preinit parsing
+[23:46:05] [Client thread/INFO]: Module disabled: ModuleThaumcraft, Thaumcraft not detected
+[23:46:05] [Client thread/INFO]: Adding Coke Oven recipe: net.minecraft.item.ItemCoal, 1xitem.coal@0, 0
+[23:46:05] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockSteel, id=1xtile.railcraft.cube@2 meta=2
+[23:46:05] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockCopper, id=1xtile.railcraft.cube@9 meta=9
+[23:46:05] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockTin, id=1xtile.railcraft.cube@10 meta=10
+[23:46:05] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockLead, id=1xtile.railcraft.cube@11 meta=11
+[23:46:06] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreSulfur, id=1xtile.railcraft.ore@0 meta=0
+[23:46:06] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreSaltpeter, id=1xtile.railcraft.ore@1 meta=1
+[23:46:06] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreDiamond, id=1xtile.railcraft.ore@2 meta=2
+[23:46:06] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreEmerald, id=1xtile.railcraft.ore@3 meta=3
+[23:46:06] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreLapis, id=1xtile.railcraft.ore@4 meta=4
+[23:46:06] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreFirestone, id=1xtile.railcraft.ore@5 meta=5
+[23:46:06] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: orePoorCopper, id=1xtile.railcraft.ore@9 meta=9
+[23:46:06] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: orePoorGold, id=1xtile.railcraft.ore@8 meta=8
+[23:46:06] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: orePoorIron, id=1xtile.railcraft.ore@7 meta=7
+[23:46:06] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: orePoorTin, id=1xtile.railcraft.ore@10 meta=10
+[23:46:06] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: orePoorLead, id=1xtile.railcraft.ore@11 meta=11
+[23:46:06] [Client thread/INFO]: Activating Halloween Seasonal Pack
+[23:46:06] [Client thread/INFO]: Applying holder lookups
+[23:46:06] [Client thread/INFO]: Holder lookups applied
+[23:46:06] [Client thread/INFO]: IC2 audio starting.
+[23:46:06] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:46:06] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[23:46:06] [Thread-7/WARN]: Unable to read from remote version authority.
+[23:46:06] [Thread-8/INFO]: Version Checker Status: CURRENT
+[23:46:06] [Thread-9/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[23:46:06] [Thread-9/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:46:06] [Thread-9/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[23:46:07] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:46:07] [Sound Library Loader/INFO]: Sound engine started
+[23:46:07] [IC2 audio init thread/INFO]: IC2 audio ready.
+[23:46:40] [Client thread/INFO]: Created: 4096x2048 textures/blocks-atlas
+[23:46:41] [Client thread/ERROR]: Using missing texture, unable to load tinker:textures/items/travelgear/wings_moss.png
+java.io.FileNotFoundException: tinker:textures/items/travelgear/wings_moss.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SourceFile:55) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:125) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110580_a(SourceFile:61) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_130088_a(SourceFile:52) [bqf.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:538) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_67]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[23:46:41] [Client thread/ERROR]: Using missing texture, unable to load tinker:textures/items/travelgear/boots_moss.png
+java.io.FileNotFoundException: tinker:textures/items/travelgear/boots_moss.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SourceFile:55) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:125) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110580_a(SourceFile:61) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_130088_a(SourceFile:52) [bqf.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:538) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_67]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[23:46:41] [Client thread/ERROR]: Using missing texture, unable to load tinker:textures/items/travelgear/goggles_moss.png
+java.io.FileNotFoundException: tinker:textures/items/travelgear/goggles_moss.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SourceFile:55) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:125) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110580_a(SourceFile:61) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_130088_a(SourceFile:52) [bqf.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:538) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_67]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[23:46:42] [Client thread/ERROR]: Using missing texture, unable to load tinker:textures/items/travelgear/vest_moss.png
+java.io.FileNotFoundException: tinker:textures/items/travelgear/vest_moss.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SourceFile:55) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:125) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110580_a(SourceFile:61) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_130088_a(SourceFile:52) [bqf.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:538) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_67]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[23:46:44] [Client thread/INFO]: Created: 4096x2048 textures/items-atlas
+[23:46:44] [Client thread/WARN]: 
+java.lang.NoSuchMethodException: ic2.core.util.Config.getFloat(java.lang.String)
+	at java.lang.Class.getMethod(Unknown Source) ~[?:1.7.0_67]
+	at uristqwerty.CraftGuide.recipes.IC2GeneratorFuel.getGeneratorMult(IC2GeneratorFuel.java:63) [IC2GeneratorFuel.class:?]
+	at uristqwerty.CraftGuide.recipes.IC2GeneratorFuel.<init>(IC2GeneratorFuel.java:18) [IC2GeneratorFuel.class:?]
+	at uristqwerty.CraftGuide.recipes.IC2ExperimentalRecipes.<init>(IC2ExperimentalRecipes.java:53) [IC2ExperimentalRecipes.class:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [?:1.7.0_67]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) [?:1.7.0_67]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) [?:1.7.0_67]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) [?:1.7.0_67]
+	at java.lang.Class.newInstance(Unknown Source) [?:1.7.0_67]
+	at uristqwerty.CraftGuide.CraftGuide.loadModRecipes(CraftGuide.java:128) [CraftGuide.class:?]
+	at uristqwerty.CraftGuide.CraftGuide.addIC2Recipes(CraftGuide.java:114) [CraftGuide.class:?]
+	at uristqwerty.CraftGuide.CraftGuide.init(CraftGuide.java:98) [CraftGuide.class:?]
+	at uristqwerty.CraftGuide.CraftGuide_FML.init(CraftGuide_FML.java:55) [CraftGuide_FML.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_67]
+	at cpw.mods.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:513) [FMLModContainer.class:?]
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_67]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) [guava-16.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) [guava-16.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) [guava-16.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) [guava-16.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) [guava-16.0.jar:?]
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:208) [LoadController.class:?]
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:187) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_67]
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74) [guava-16.0.jar:?]
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47) [guava-16.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322) [guava-16.0.jar:?]
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304) [guava-16.0.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275) [guava-16.0.jar:?]
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:118) [LoadController.class:?]
+	at cpw.mods.fml.common.Loader.initializeMods(Loader.java:691) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:288) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:541) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_67]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[23:46:44] [Client thread/INFO]: Entering initialization phase.
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: hambone, id=1xtile.tconstruct.meatblock@0 meta=0
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreCobalt, id=1xtile.tconstruct.stoneore@1 meta=1
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreArdite, id=1xtile.tconstruct.stoneore@2 meta=2
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreCopper, id=1xtile.tconstruct.stoneore@3 meta=3
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreTin, id=1xtile.tconstruct.stoneore@4 meta=4
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreAluminum, id=1xtile.tconstruct.stoneore@5 meta=5
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreAluminium, id=1xtile.tconstruct.stoneore@5 meta=5
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreIron, id=1xtile.tconstruct.gravelore@0 meta=0
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreGold, id=1xtile.tconstruct.gravelore@1 meta=1
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreCobalt, id=1xtile.tconstruct.gravelore@5 meta=5
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreCopper, id=1xtile.tconstruct.gravelore@2 meta=2
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreTin, id=1xtile.tconstruct.gravelore@3 meta=3
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreAluminum, id=1xtile.tconstruct.gravelore@4 meta=4
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: oreAluminium, id=1xtile.tconstruct.gravelore@4 meta=4
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockCobalt, id=1xtile.tconstruct.metalblock@0 meta=0
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockArdite, id=1xtile.tconstruct.metalblock@1 meta=1
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockManyullyn, id=1xtile.tconstruct.metalblock@2 meta=2
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockCopper, id=1xtile.tconstruct.metalblock@3 meta=3
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockBronze, id=1xtile.tconstruct.metalblock@4 meta=4
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockTin, id=1xtile.tconstruct.metalblock@5 meta=5
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockAluminum, id=1xtile.tconstruct.metalblock@6 meta=6
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockAluminium, id=1xtile.tconstruct.metalblock@6 meta=6
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockAluminumBrass, id=1xtile.tconstruct.metalblock@7 meta=7
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockAluminiumBrass, id=1xtile.tconstruct.metalblock@7 meta=7
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockAlumite, id=1xtile.tconstruct.metalblock@8 meta=8
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockSteel, id=1xtile.tconstruct.metalblock@9 meta=9
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockEnder, id=1xtile.tconstruct.metalblock@10 meta=10
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: slabCloth, id=1xtile.cloth@32767 meta=32 767
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: slabCloth, id=1xtile.cloth@32767 meta=32 767
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: stoneMossy, id=1xtile.stonebricksmooth@1 meta=1
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: stoneMossy, id=1xtile.stoneMoss@0 meta=0
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: crafterWood, id=1xtile.workbench@0 meta=0
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: craftingTableWood, id=1xtile.workbench@0 meta=0
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: torchStone, id=1xtile.decoration.stonetorch@0 meta=0
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: glassWhite, id=1xtile.GlassBlock.StainedClear@0 meta=0
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: glassOrange, id=1xtile.GlassBlock.StainedClear@1 meta=1
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: glassMagenta, id=1xtile.GlassBlock.StainedClear@2 meta=2
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: glassLightBlue, id=1xtile.GlassBlock.StainedClear@3 meta=3
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: glassYellow, id=1xtile.GlassBlock.StainedClear@4 meta=4
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: glassLime, id=1xtile.GlassBlock.StainedClear@5 meta=5
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: glassPink, id=1xtile.GlassBlock.StainedClear@6 meta=6
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: glassGray, id=1xtile.GlassBlock.StainedClear@7 meta=7
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: glassLightGray, id=1xtile.GlassBlock.StainedClear@8 meta=8
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: glassCyan, id=1xtile.GlassBlock.StainedClear@9 meta=9
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: glassPurple, id=1xtile.GlassBlock.StainedClear@10 meta=10
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: glassBlue, id=1xtile.GlassBlock.StainedClear@11 meta=11
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: glassBrown, id=1xtile.GlassBlock.StainedClear@12 meta=12
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: glassGreen, id=1xtile.GlassBlock.StainedClear@13 meta=13
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: glassRed, id=1xtile.GlassBlock.StainedClear@14 meta=14
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: glassBlack, id=1xtile.GlassBlock.StainedClear@15 meta=15
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockGlass, id=1xtile.GlassBlock@0 meta=0
+[23:46:45] [Client thread/INFO]: [tconstruct.armor.ArmorProxyClient:registerManualRecipes:88]: Travel Vest Item: 1xitem.tconstruct.travelvest@0
+[23:46:45] [Client thread/INFO]: BuildCraft detected. Registering facades.
+[23:46:45] [Client thread/INFO]: IC2 detected. Preparing for shenanigans.
+[23:46:45] [Client thread/INFO]: Automation Module: Ore Detected, adding to blocks Tunnel Bore can mine: blockCharcoal, id=1xtile.metal.block.extra.storage.block@0 meta=0
+[23:46:45] [Client thread/INFO]: Starting init
+[23:46:45] [Client thread/INFO]: Finished init after 79 ms
+[23:46:45] [Client thread/INFO]: Adding Coke Oven recipe: net.minecraft.item.ItemBlock, 1xtile.blockCoal@0, 0
+[23:46:45] [Client thread/INFO]: Entering postinitialization phase.
+[23:46:45] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[23:46:45] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[23:46:45] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[23:46:45] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[23:46:45] [Client thread/INFO]: Loading Manual XML from: /assets/mantle/manuals/test.xml
+[23:46:45] [Client thread/WARN]: Could not find itemResourcefrom thaumcraft.common.config.ConfigItems
+[23:46:45] [Client thread/WARN]: Thaumcraft not detected.
+[23:46:46] [Client thread/INFO]: Starting post-init
+[23:46:46] [Client thread/INFO]: Loading IC2 submodule: bcIntegration
+[23:46:46] [Client thread/INFO]: BuildCraft integration module loaded
+[23:46:46] [Client thread/INFO]: Loading predefined UU world scan values, run /ic2 uu-world-scan <small|medium|large> to calibrate them for your world.
+[23:46:46] [Client thread/INFO]: 3017 UU recipe transformations fetched after 96 ms.
+[23:46:46] [Client thread/INFO]: Finished post-init after 196 ms
+[23:46:46] [Client thread/INFO]: Registering CraftGuide integration.
+[23:46:46] [Client thread/INFO]: Railcraft registered "bioethanol" as a valid Boiler fuel source with 16000 heat.
+[23:46:46] [Client thread/INFO]: Railcraft registered "fuel" as a valid Boiler fuel source with 48000 heat.
+[23:46:46] [Client thread/INFO]: Railcraft registered "creosote" as a valid Boiler fuel source with 4800 heat.
+[23:46:46] [Client thread/INFO]: Adding Coke Oven recipe: net.minecraft.item.ItemMultiTexture, 1xtile.log@32767, 32 767
+[23:46:46] [Client thread/INFO]: Adding Coke Oven recipe: net.minecraft.item.ItemMultiTexture, 1xtile.log@32767, 32 767
+[23:46:46] [Client thread/INFO]: Adding Coke Oven recipe: forestry.arboriculture.items.ItemWoodBlock, 1xtile.for.log1@32767, 32 767
+[23:46:46] [Client thread/INFO]: Adding Coke Oven recipe: forestry.arboriculture.items.ItemWoodBlock, 1xtile.for.log2@32767, 32 767
+[23:46:46] [Client thread/INFO]: Adding Coke Oven recipe: forestry.arboriculture.items.ItemWoodBlock, 1xtile.for.log3@32767, 32 767
+[23:46:46] [Client thread/INFO]: Adding Coke Oven recipe: forestry.arboriculture.items.ItemWoodBlock, 1xtile.for.log4@32767, 32 767
+[23:46:46] [Client thread/INFO]: Adding Coke Oven recipe: forestry.arboriculture.items.ItemWoodBlock, 1xtile.for.log5@32767, 32 767
+[23:46:46] [Client thread/INFO]: Adding Coke Oven recipe: forestry.arboriculture.items.ItemWoodBlock, 1xtile.for.log6@32767, 32 767
+[23:46:46] [Client thread/INFO]: Adding Coke Oven recipe: forestry.arboriculture.items.ItemWoodBlock, 1xtile.for.log7@32767, 32 767
+[23:46:46] [Client thread/INFO]: Adding Coke Oven recipe: ic2.core.item.block.ItemBlockIC2, 1xic2.blockRubWood@32767, 32 767
+[23:46:46] [Client thread/INFO]: Successfully registered CraftGuide plugin: BlastFurnacePlugin
+[23:46:46] [Client thread/INFO]: Successfully registered CraftGuide plugin: CokeOvenPlugin
+[23:46:46] [Client thread/INFO]: Successfully registered CraftGuide plugin: RockCrusherPlugin
+[23:46:46] [Client thread/INFO]: Successfully registered CraftGuide plugin: RollingMachinePlugin
+[23:46:46] [Client thread/INFO]: Successfully registered CraftGuide plugin: CustomRecipesPlugin
+[23:46:46] [Client thread/INFO]: Successfully registered CraftGuide plugin: RecipeFilter
+[23:46:46] [Client thread/INFO]: Railcraft Config: Doing post init configuration
+[23:46:46] [Client thread/INFO]: Adding World Anchor Fuel = minecraft:ender_pearl=12
+[23:46:46] [Client thread/INFO]: Adding Parsonal Anchor Fuel = minecraft:ender_pearl=12
+[23:46:46] [Client thread/INFO]: +++++++++++++++++++++++++[PowerConverters][NOTICE]+++++++++++++++++++++++++
+[23:46:46] [Client thread/INFO]: Default power ratios are based on FTB standards and not all mods follow these
+[23:46:46] [Client thread/INFO]: If you find conflicting ratios in your pack, please adjust the config acoordingly or remove PC
+[23:46:46] [Client thread/INFO]: These conflicts are not the fault of any mod author. It is the nature on minecraft
+[23:46:46] [Client thread/INFO]: -------------------------[PowerConverters][STEAM]-------------------------
+[23:46:46] [Client thread/INFO]: Default steam ratios, while based on standards, will create infinite energy loops
+[23:46:46] [Client thread/INFO]: To prevent over powered infinite energy, use a steam throttle values of less than 5
+[23:46:46] [Client thread/INFO]: +++++++++++++++++++++++++[PowerConverters][NOTICE]+++++++++++++++++++++++++
+[23:46:46] [Client thread/INFO]:   Unknown recipe class! tconstruct.library.crafting.ShapelessToolRecipe Modder please refer to net.minecraftforge.oredict.RecipeSorter
+[23:46:46] [Client thread/INFO]: Forge Mod Loader has successfully loaded 22 mods
+[23:46:46] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:BC Builders, FMLFileResourcePack:BuildCraft, FMLFileResourcePack:BC Energy, FMLFileResourcePack:BC Factory, FMLFileResourcePack:BC Silicon, FMLFileResourcePack:BC Transport, FMLFileResourcePack:Carpenter's Blocks, FMLFileResourcePack:CraftGuide, FMLFileResourcePack:ExtraTiC, FMLFileResourcePack:Forestry for Minecraft, FMLFileResourcePack:IndustrialCraft 2, FMLFileResourcePack:Mantle, FMLFileResourcePack:Metallurgy 4, FMLFileResourcePack:Metallurgy Core, FMLFileResourcePack:Power Converters, FMLFileResourcePack:Railcraft, FMLFileResourcePack:Refined Relocation, FMLFileResourcePack:Tinkers' Construct, FMLFileResourcePack:TiC Tooltips, FMLFileResourcePack:Carpenter's Blocks Cached Resources, Sphax PureBDcraft  64x MC17.zip, Sphax_CarpentersBlocks_128x.zip, Sphax_TinCon_Ver1.6.0.d40_1_64x.zip, Sphax64x_Metallurgy_1.7.2
+[23:46:47] [Client thread/ERROR]: Using missing texture, unable to load tinker:textures/items/travelgear/boots_moss.png
+java.io.FileNotFoundException: tinker:textures/items/travelgear/boots_moss.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SourceFile:55) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:125) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110549_a(SourceFile:136) [bqf.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110544_b(SourceFile:104) [brg.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110541_a(SourceFile:92) [brg.class:?]
+	at net.minecraft.client.Minecraft.func_110436_a(Minecraft.java:598) [bao.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:541) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_67]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[23:46:47] [Client thread/ERROR]: Using missing texture, unable to load tinker:textures/items/travelgear/goggles_moss.png
+java.io.FileNotFoundException: tinker:textures/items/travelgear/goggles_moss.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SourceFile:55) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:125) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110549_a(SourceFile:136) [bqf.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110544_b(SourceFile:104) [brg.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110541_a(SourceFile:92) [brg.class:?]
+	at net.minecraft.client.Minecraft.func_110436_a(Minecraft.java:598) [bao.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:541) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_67]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[23:46:47] [ic2-poolthread-1/INFO]: UU graph built with 2289 nodes after 1377 ms.
+[23:46:47] [Client thread/ERROR]: Using missing texture, unable to load tinker:textures/items/travelgear/vest_moss.png
+java.io.FileNotFoundException: tinker:textures/items/travelgear/vest_moss.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SourceFile:55) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:125) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110549_a(SourceFile:136) [bqf.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110544_b(SourceFile:104) [brg.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110541_a(SourceFile:92) [brg.class:?]
+	at net.minecraft.client.Minecraft.func_110436_a(Minecraft.java:598) [bao.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:541) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_67]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[23:46:48] [Client thread/ERROR]: Using missing texture, unable to load tinker:textures/items/travelgear/wings_moss.png
+java.io.FileNotFoundException: tinker:textures/items/travelgear/wings_moss.png
+	at net.minecraft.client.resources.FallbackResourceManager.func_110536_a(SourceFile:51) ~[bqq.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SourceFile:55) ~[brg.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110571_b(TextureMap.java:125) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureMap.func_110551_a(TextureMap.java:90) [bpz.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110579_a(SourceFile:72) [bqf.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.func_110549_a(SourceFile:136) [bqf.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110544_b(SourceFile:104) [brg.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.func_110541_a(SourceFile:92) [brg.class:?]
+	at net.minecraft.client.Minecraft.func_110436_a(Minecraft.java:598) [bao.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:541) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:867) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_67]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.7.0_67]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.7.0_67]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
+[23:46:51] [Client thread/INFO]: Created: 4096x4096 textures/items-atlas
+[23:47:26] [Client thread/INFO]: Created: 4096x2048 textures/blocks-atlas
+[23:47:27] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:47:27] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[23:47:27] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[23:47:27] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:47:27] [Client thread/INFO]: IC2 audio starting.
+[23:47:27] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:47:27] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[23:47:27] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[23:47:27] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[23:47:27] [Thread-11/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
+[23:47:27] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:47:27] [Sound Library Loader/INFO]: Sound engine started
+[23:47:28] [IC2 audio init thread/INFO]: IC2 audio ready.
+[23:47:33] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[23:47:46] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[23:47:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[23:48:17] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[23:48:23] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[23:48:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[23:48:59] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[23:49:21] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[23:49:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[23:49:48] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[23:50:00] [Client thread/INFO]: Stopping!
+[23:50:00] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[23:50:00] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[23:50:00] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[23:50:00] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
